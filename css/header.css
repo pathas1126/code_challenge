@@ -1,6 +1,8 @@
 .header {
   width: 100%;
-  padding-top: 20px;
+  top: 0px;
+  background-color: #fafafa;
+  padding: 30px 10px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -8,14 +10,15 @@
 }
 
 .header__left {
-  margin-left: 20px;
+  font-family: "Beth Ellen", cursive;
+  margin-left: 40px;
   align-items: center;
 }
 
 .header__right {
   width: 90px;
+  margin-right: 50px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-right: 20px;
 }

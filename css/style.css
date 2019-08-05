@@ -1,11 +1,19 @@
+@import url("https://fonts.googleapis.com/css?family=Beth+Ellen|Oswald:200,400,600&display=swap");
 @import "reset.css";
 @import "header.css";
 @import "img-bar.css";
 @import "main.css";
+@import "nav.css";
+@import "write.css";
+@import "comment.css";
 
 body {
   margin: 0;
   width: 100%;
   height: 100vh;
-  background-color: gainsboro;
+  background-color: #fafafa;
+}
+
+* {
+  box-sizing: border-box;
 }
