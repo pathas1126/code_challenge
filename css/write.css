@@ -11,11 +11,13 @@
 }
 
 .main__image-wrapper-dm {
-  margin-top: 20px;
-  width: 100%;
+  width: 650px;
+  height: 470px;
   display: flex;
   justify-content: center;
-  align-items: center;
+  border-radius: 5%;
+  box-shadow: 0 30px 60px -12px rgba(50, 50, 93, 0.2),
+    0 18px 36px -18px rgba(0, 0, 0, 0.12), 0 -12px 36px -8px rgba(0, 0, 0, 0.01);
   overflow: hidden;
 }
 
@@ -23,8 +25,6 @@
   width: 650px;
   height: 470px;
   border-radius: 5%;
-  box-shadow: 0 30px 60px -12px rgba(50, 50, 93, 0.2),
-    0 18px 36px -18px rgba(0, 0, 0, 0.12), 0 -12px 36px -8px rgba(0, 0, 0, 0.01);
 }
 
 .person {
